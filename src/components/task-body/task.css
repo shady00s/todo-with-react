@@ -1,0 +1,43 @@
+.taskBody{
+    display: flex;
+    width: 100% ;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.3rem 0.6rem;
+    margin: 1rem;
+    border:1px solid rgba(82, 82, 82, 0.238);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+
+.taskText{
+    display: inline-block;
+
+    word-break: break-all;
+}
+
+.taskButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.taskButton button{
+    
+    border:1px solid rgba(117, 117, 117, 0) ;
+    background: transparent;
+    padding:0 0.6rem;
+    margin:0 0.4rem;
+    box-sizing: border-box;
+    transition: border .3s ease-in;
+}
+.taskButton button:hover{
+    border: 1px solid rgba(117, 117, 117, 0.088);
+    transition: border .3s ease-in;
+}
+.editBtn{
+    color: rgb(8, 83, 214);
+}
+.deletebtn{
+    color: rgb(214, 11, 8);
+}
